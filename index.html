@@ -1,23 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <title>Movie APP</title>
+    <title>Movie App</title>
   </head>
   <body>
     <header class="container">
       <div class="header__content">
-        <a class="header__logo">MovieAPP</a>
-        <form action="">
+        <a href="index.html" class="header__logo">MovieApp</a>
+        <form>
           <input type="text" class="header__search" placeholder="Поиск" />
         </form>
       </div>
@@ -27,20 +25,18 @@
         <div class="movie">
           <div class="movie__cover-inner">
             <img
-              src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSYxYPuh0TLaTVFCgxgD_w26dkqoIfiHdxDh84C8bkK-sSDq52E"
-              alt="автостопом по галактике"
-              class="movie-cover"
+              src="https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/f6461c53-77ec-40a0-a4b2-c7f9920a034f/600x900"
+              alt="Автостопом по галактике"
             />
             <div class="movie__cover--darkened"></div>
           </div>
-          <div class="movie__info">
-            <div class="movie__title">Автостопом по галактике</div>
-            <div class="movie__genre">Приключение</div>
-            <div class="movie__average movie__average--green"></div>
-          </div>
+          <div class="movie__info"></div>
+          <div class="movie_title">Автостопом по галактике</div>
+          <div class="movie__category">Приключение</div>
+          <div class="movie__average movie__average--green">9</div>
         </div>
       </div>
     </div>
-    <script src="/script/script.js"></script>
+    <script src="script/script.js"></script>
   </body>
 </html>
